@@ -1,8 +1,0 @@
-Project Theme: Local Community Event Portal
-
-13. Debugging and Testing
-
-Tasks:
-• Use console logs and Network tab
-• add breakpoints and inspect variables
-• log form submission steps and check payload

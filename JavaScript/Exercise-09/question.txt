@@ -1,8 +1,0 @@
-Project Theme: Local Community Event Portal
-
-9. Async JS, Promises, Async/Await
-
-Tasks:
-• fetch mock JSON endpoint
-• .then()/.catch() and async/await
-• show loading spinner

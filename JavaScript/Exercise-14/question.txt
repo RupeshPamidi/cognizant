@@ -1,8 +1,0 @@
-Project Theme: Local Community Event Portal
-
-14. jQuery and JS Frameworks
-
-Tasks:
-• Example jQuery $('#registerBtn').click()
-• .fadeIn()/.fadeOut() demo
-• note benefits of frameworks like React/Vue
