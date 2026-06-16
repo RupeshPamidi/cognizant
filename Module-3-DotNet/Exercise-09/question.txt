@@ -1,0 +1,7 @@
+Exercise 09: Use Local Functions
+
+Objective: Learn how to define and use local functions.
+
+Instructions:
+• Write a method called CalculateFactorial that uses a local function to perform the factorial calculation.
+• Call the local function from within CalculateFactorial() and print the result.

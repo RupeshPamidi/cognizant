@@ -1,0 +1,9 @@
+Exercise 30: Perform CRUD Operations using ADO.NET
+
+Objective: Learn how to interact with a database using ADO.NET.
+
+Instructions:
+• Connect to a local SQL Server instance using SqlConnection.
+• Perform basic CRUD operations (Insert, Read, Update, Delete) on an Employees table using ADO.NET classes like SqlCommand, SqlDataReader, and SqlDataAdapter.
+
+Note: Update the connection string before running; this sample uses placeholders and is for instructional purposes.

@@ -1,0 +1,8 @@
+Exercise 04: Demonstrate Type Inference with var and new()
+
+Objective: Understand the use of type inference in C#.
+
+Instructions:
+• Create variables using var and new() for different types (e.g., int, string, a custom class).
+• Print the types and values of each variable.
+• Discuss when type inference is beneficial and when it might affect readability.
