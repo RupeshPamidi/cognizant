@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 12: Spacing Utilities
+
+12.1 Apply margin (m-3, mt-4) and padding (p-2, py-5) utilities on layout sections.
+
+12.2 Build a pricing section where spacing improves the layout.

@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 06: Responsive Flexbox Utilities
+
+6.1 Create a navbar using d-flex, flex-column, and flex-md-row for responsive behavior.
+
+6.2 Use justify-content-between and align-items-center in a card layout.

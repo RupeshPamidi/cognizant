@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 15: Borders, Shadows, and Rounded Corners
+
+15.1 Add border utilities like border, border-primary, border-3, and rounded-circle to an image.
+
+15.2 Use shadow, shadow-lg, and rounded-pill in a card.

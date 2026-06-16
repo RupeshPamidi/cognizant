@@ -1,0 +1,24 @@
+/* Event card box model */
+.eventCard {
+    background-color: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    padding: 24px;
+    margin: 1.5rem 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.06);
+}
+
+/* Highlighted form field */
+.input-highlight {
+    outline: 3px solid rgba(14, 165, 233, 0.6);
+    outline-offset: 4px;
+}
+
+.hidden-note {
+    visibility: hidden;
+}
+
+.removed-note {
+    display: none;
+}
+

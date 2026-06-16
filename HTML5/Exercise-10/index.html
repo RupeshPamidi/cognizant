@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal - Debugging</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+        .debug-card { max-width: 760px; margin: 2rem auto; padding: 1.75rem; background: white; border-radius: 18px; }
+        button { background: #2563eb; color: white; border: none; padding: 0.9rem 1.4rem; border-radius: 999px; cursor: pointer; }
+        .log-output { margin-top: 1rem; padding: 1rem; background: #e2e8f0; border-radius: 12px; }
+    </style>
+</head>
+<body>
+    <main class="debug-card">
+        <h1>Debugging Practice</h1>
+        <p>Open DevTools, inspect the layout, and use the Console to view logs.</p>
+        <button onclick="triggerDebug()">Run Debug</button>
+        <div class="log-output" id="debugLog">Console logs appear in DevTools.</div>
+    </main>
+    <script>
+        function triggerDebug() {
+            const item = { name: 'Community Portal', status: 'active', count: 3 };
+            console.log('Debug object:', item);
+            debugger;
+            document.getElementById('debugLog').textContent = 'Debug function executed. Check the console and use breakpoints.';
+        }
+        console.log('Debug page loaded successfully.');
+    </script>
+</body>
+</html>

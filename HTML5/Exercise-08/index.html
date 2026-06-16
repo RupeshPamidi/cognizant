@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal - Preferences</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #eff6ff; }
+        .prefs-card { max-width: 640px; margin: 2rem auto; padding: 1.75rem; background: white; border-radius: 18px; }
+        .prefs-card label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+        select, button { width: 100%; padding: 0.95rem; border: 1px solid #cbd5e1; border-radius: 12px; margin-top: 0.75rem; }
+        button { background: #2563eb; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <main class="prefs-card">
+        <h1>Save Your Event Preference</h1>
+        <label for="eventType">Preferred Event Type</label>
+        <select id="eventType" onchange="savePreference()">
+            <option value="">Select</option>
+            <option value="cleanup">Community Cleanup</option>
+            <option value="workshop">Skills Workshop</option>
+            <option value="festival">Neighborhood Festival</option>
+        </select>
+        <button type="button" onclick="clearPreferences()">Clear Preferences</button>
+        <p id="preferenceStatus"></p>
+    </main>
+    <script>
+        function savePreference() {
+            const eventType = document.getElementById('eventType').value;
+            localStorage.setItem('preferredEvent', eventType);
+            sessionStorage.setItem('sessionEvent', eventType);
+            document.getElementById('preferenceStatus').textContent = `Saved preference: ${eventType}`;
+        }
+        function clearPreferences() {
+            localStorage.removeItem('preferredEvent');
+            sessionStorage.removeItem('sessionEvent');
+            document.getElementById('eventType').value = '';
+            document.getElementById('preferenceStatus').textContent = 'Preferences cleared.';
+        }
+        window.onload = function() {
+            const saved = localStorage.getItem('preferredEvent');
+            if (saved) {
+                document.getElementById('eventType').value = saved;
+                document.getElementById('preferenceStatus').textContent = `Loaded preference: ${saved}`;
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 14: Display and Visibility
+
+14.1 Use d-none, d-md-block, and d-lg-flex to hide or show sections based on screen size.
+
+14.2 Create a responsive sidebar that only shows on tablets and above.

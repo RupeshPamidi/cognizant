@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 08: Forms
+
+8.1 Create an input group and style a login form using form-floating.
+
+8.2 Create a registration form using Bootstrap form components like form-control, form-check, and form-select.

@@ -1,0 +1,38 @@
+/* Universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main banner header */
+#mainHeader {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+/* Style all secondary headings */
+h2 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+
+/* Event card container styles */
+.eventCard {
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    border-radius: 18px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 1rem 0;
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.05);
+}
+
+/* Grouped text styles for headings and paragraphs */
+h3, p {
+    color: #334155;
+    line-height: 1.65;
+}
+

@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 05: Alignment and Reordering in Grid
+
+5.1 Use justify-content-center and align-items-center to center content inside a row.
+
+5.2 Reorder columns on different screen sizes using order-md-2 and order-md-1.

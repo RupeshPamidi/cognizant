@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 10: Navbars and Navigation
+
+10.1 Create a responsive navbar with logo, navigation links, and a search form.
+
+10.2 Use nav, nav-tabs, and nav-pills for creating tabbed navigation.

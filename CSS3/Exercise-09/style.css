@@ -1,0 +1,18 @@
+/* Multi-column bulletin section */
+.news-article {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid rgba(100, 116, 139, 0.4);
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 16px 28px rgba(15, 23, 42, 0.08);
+    line-height: 1.85;
+    color: #111827;
+}
+
+.news-article h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+

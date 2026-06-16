@@ -1,0 +1,9 @@
+Theme: Styling the Local Community Event Portal
+
+7. Table Styling
+Scenario: The events admin table needs a cleaner look.
+Objective: Format tables using CSS.
+Tasks:
+• Style table, th, and td with borders, padding, and background color.
+• Add zebra striping to rows using nth-child(even).
+• Use border-collapse: collapse and text-align: center.

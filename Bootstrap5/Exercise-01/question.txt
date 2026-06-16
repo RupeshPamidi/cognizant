@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 01: Setting Up Bootstrap 5
+
+1.1 Create a basic HTML page and link Bootstrap 5 via CDN.
+
+1.2 Set up a project using npm or downloaded Bootstrap files. Use the downloaded files in a sample HTML page.

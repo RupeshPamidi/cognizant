@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 13: Colors and Backgrounds
+
+13.1 Use text colors and create a dashboard page using contextual background classes like bg-primary and bg-warning.
+
+13.2 Use bg-gradient with bg-dark and white text.

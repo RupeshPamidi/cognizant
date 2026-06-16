@@ -1,0 +1,44 @@
+/* Header styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e293b;
+}
+
+/* Portal branding */
+.portal-header {
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 40px 24px;
+    text-align: center;
+}
+
+.portal-title {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.08em;
+}
+
+/* Reusable button styles */
+.cta-button {
+    display: inline-block;
+    background: #0ea5e9;
+    color: #ffffff;
+    padding: 0.9rem 1.6rem;
+    border-radius: 999px;
+    text-decoration: none;
+}
+
+/* Card styles */
+.event-card {
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 24px auto;
+    max-width: 920px;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+

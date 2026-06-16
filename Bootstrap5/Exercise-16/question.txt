@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 16: Positioning Utilities
+
+16.1 Create a fixed footer using position-fixed bottom-0.
+
+16.2 Use position-relative and position-absolute to overlay a badge over an image.

@@ -1,0 +1,11 @@
+Theme: Styling the Local Community Event Portal
+
+3. Selectors Playground
+Scenario: You need to style various elements based on IDs, classes, and element types.
+Objective: Master different selector types.
+Tasks:
+• Use the universal selector * to reset margin/padding.
+• Use an element selector to style all <h2>.
+• Use an ID selector #mainHeader for the banner.
+• Use a class selector .eventCard for event containers.
+• Use a grouping selector for h3, p to style together.

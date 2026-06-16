@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 19: Customization with Sass
+
+19.1 Set up a Bootstrap 5 project with Sass using npm.
+
+19.2 Customize primary colors and border radius via _variables.scss and recompile Bootstrap.

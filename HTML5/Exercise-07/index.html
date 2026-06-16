@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal - Video Invite</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+        .video-card { max-width: 760px; margin: 2rem auto; padding: 1.75rem; background: white; border-radius: 18px; }
+        .status { margin-top: 1rem; font-weight: 600; }
+        video { width: 100%; border-radius: 16px; }
+    </style>
+</head>
+<body>
+    <main class="video-card">
+        <h1>Event Promo Video</h1>
+        <video id="promoVideo" controls oncanplay="videoReady()">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+        <p id="videoStatus" class="status">Loading video status...</p>
+    </main>
+    <script>
+        window.onbeforeunload = function(event) {
+            event.preventDefault();
+            event.returnValue = 'Are you sure you want to leave? Your progress may be lost.';
+        };
+        function videoReady() {
+            document.getElementById('videoStatus').textContent = 'Video ready to play.';
+        }
+    </script>
+</body>
+</html>

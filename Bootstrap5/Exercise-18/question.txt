@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 18: Bootstrap 5 JavaScript Plugins
+
+18.1 Add a modal popup triggered by a button.
+
+18.2 Create a collapsible accordion using accordion components and Bootstrap JavaScript behavior.

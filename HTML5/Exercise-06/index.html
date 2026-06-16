@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal - Feedback</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #eef2ff; }
+        .feedback-card { max-width: 700px; margin: 2rem auto; padding: 1.75rem; background: white; border-radius: 18px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08); }
+        .feedback-card label { display: block; margin-top: 1rem; font-weight: 600; }
+        .feedback-card input, .feedback-card select, .feedback-card textarea { width: 100%; padding: 0.9rem; margin-top: 0.5rem; border: 1px solid #cbd5e1; border-radius: 12px; }
+        .feedback-card button { background: #2563eb; color: white; border: none; padding: 0.9rem 1.4rem; border-radius: 999px; margin-top: 1rem; cursor: pointer; }
+        .thumbnail { width: 100%; max-width: 320px; border-radius: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <main class="feedback-card">
+        <h1>Event Feedback</h1>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" placeholder="123-456-7890" onblur="validatePhone()">
+        <p id="phoneHint" style="color: #dc2626;"></p>
+
+        <label for="eventSelect">Choose Event</label>
+        <select id="eventSelect" onchange="showFee()">
+            <option value="">Select event</option>
+            <option value="cleanup">Cleanup - $0</option>
+            <option value="workshop">Workshop - $20</option>
+            <option value="festival">Festival - $10</option>
+        </select>
+        <p id="feeDisplay">Selected fee will appear here.</p>
+
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback" rows="4" onkeydown="updateCount()" placeholder="Share your thoughts..."></textarea>
+        <p id="charCount">Characters typed: 0</p>
+
+        <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+        <p id="feedbackConfirm"></p>
+
+        <h2>Event Preview</h2>
+        <img class="thumbnail" src="https://via.placeholder.com/320x180.png?text=Event+Preview" alt="Event preview" ondblclick="enlargeImage(this)">
+    </main>
+    <script>
+        function validatePhone() {
+            const phone = document.getElementById('phone').value;
+            const hint = document.getElementById('phoneHint');
+            const regex = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
+            hint.textContent = regex.test(phone) ? '' : 'Please use the format 123-456-7890.';
+        }
+        function showFee() {
+            const selected = document.getElementById('eventSelect');
+            document.getElementById('feeDisplay').textContent = `Selected fee: ${selected.options[selected.selectedIndex].text}`;
+        }
+        function submitFeedback() {
+            document.getElementById('feedbackConfirm').textContent = 'Thank you! Your feedback has been submitted.';
+        }
+        function enlargeImage(img) {
+            img.style.width = img.style.width === '100%' ? '320px' : '100%';
+        }
+        function updateCount() {
+            const text = document.getElementById('feedback').value;
+            document.getElementById('charCount').textContent = `Characters typed: ${text.length}`;
+        }
+    </script>
+</body>
+</html>

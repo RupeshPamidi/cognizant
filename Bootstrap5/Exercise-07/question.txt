@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 07: Typography
+
+7.1 Create a sample page with Bootstrap typography utilities: display-1, lead, text-muted, fw-bold, etc.
+
+7.2 Use text-uppercase, text-lowercase, and text-capitalize.

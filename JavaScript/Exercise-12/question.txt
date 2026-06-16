@@ -1,0 +1,8 @@
+Project Theme: Local Community Event Portal
+
+12. AJAX & Fetch API
+
+Tasks:
+• POST user data with fetch()
+• show success/failure
+• simulate delay with setTimeout()

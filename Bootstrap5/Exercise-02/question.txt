@@ -1,0 +1,5 @@
+Bootstrap 5 Exercise 02: Bootstrap Structure and Files
+
+2.1 Explore the structure of the downloaded Bootstrap directory. Identify and explain the purpose of the CSS, JS, and icons folders.
+
+2.2 Modify your HTML to include Bootstrap's JavaScript plugins via bootstrap.bundle.min.js.
