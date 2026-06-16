@@ -1,0 +1,6 @@
+Exercise 03: Inactive Users
+
+Retrieve users who have not registered for any events in the last 90 days.
+
+Requirements: Use `Users` and `Registrations`. Return `user_id`, `full_name`, `email`, `last_registration_date` (NULL if never registered).
+

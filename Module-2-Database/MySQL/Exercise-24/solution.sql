@@ -1,0 +1,8 @@
+-- Exercise 24: Average Session Duration per Event
+
+SELECT event_id,
+	   AVG(TIMESTAMPDIFF(MINUTE, start_time, end_time)) AS avg_duration_minutes
+FROM Sessions
+GROUP BY event_id
+ORDER BY avg_duration_minutes DESC;
+

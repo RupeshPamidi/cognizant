@@ -1,0 +1,6 @@
+Exercise 08: Sessions per Upcoming Event
+
+Display all upcoming events with the count of sessions scheduled for them.
+
+Requirements: Use `Events` and `Sessions`. Only consider events with `start_date >= CURDATE()`.
+

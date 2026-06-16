@@ -1,0 +1,6 @@
+Exercise 17: Multi-Session Speakers
+
+Identify speakers who are handling more than one session across all events.
+
+Requirements: Use `Sessions`. Return `speaker_name` and `session_count`.
+

@@ -1,0 +1,6 @@
+Exercise 23: Registration Trends
+
+Show a month-wise registration count trend over the past 12 months.
+
+Requirements: Use `Registrations`. Return `year_month` (YYYY-MM) and `registrations_count`.
+

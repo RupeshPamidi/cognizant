@@ -1,0 +1,7 @@
+Exercise 02: Top Rated Events
+
+Identify events with the highest average rating, considering only those that have received at least 10 feedback submissions.
+
+Requirements: Use `Events` and `Feedback`. Return event_id, title, avg_rating, feedback_count ordered by avg_rating desc.
+
+Notes: If no events meet the 10-feedback threshold, the query should return no rows.

@@ -1,0 +1,6 @@
+Exercise 07: Low Feedback Alerts
+
+List all users who gave feedback with a rating less than 3, along with their comments and associated event names.
+
+Requirements: Use `Feedback`, `Users`, `Events`. Return `user_id`, `full_name`, `event_id`, `event_title`, `rating`, `comments`, `feedback_date`.
+

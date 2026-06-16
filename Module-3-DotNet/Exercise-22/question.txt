@@ -1,0 +1,7 @@
+Exercise 22: Create and Deconstruct Tuples
+
+Objective: Learn how to use tuples for returning multiple values.
+
+Instructions:
+• Create a method that returns a tuple with two values: an int and a string.
+• In Main(), deconstruct the tuple and print the individual values.

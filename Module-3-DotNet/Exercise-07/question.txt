@@ -1,0 +1,7 @@
+Exercise 07: Implement Method Overloading
+
+Objective: Demonstrate method overloading.
+
+Instructions:
+• Define a method named CalculateTotal that accepts different types/number of parameters (e.g., two integers, three doubles).
+• Call each version of the method from Main() and display the results to demonstrate method overloading.

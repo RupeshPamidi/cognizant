@@ -1,0 +1,6 @@
+Exercise 12: Event with Maximum Sessions
+
+List the event(s) with the highest number of sessions.
+
+Requirements: Use `Sessions` and `Events`. Return `event_id`, `title`, `session_count`.
+

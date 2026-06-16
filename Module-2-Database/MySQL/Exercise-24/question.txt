@@ -1,0 +1,6 @@
+Exercise 24: Average Session Duration per Event
+
+Compute the average duration (in minutes) of sessions in each event.
+
+Requirements: Use `Sessions`. Return `event_id` and `avg_duration_minutes`.
+

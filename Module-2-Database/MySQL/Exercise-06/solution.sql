@@ -1,0 +1,7 @@
+-- Exercise 06: Event Resource Summary
+
+SELECT event_id, resource_type, COUNT(*) AS resource_count
+FROM Resources
+GROUP BY event_id, resource_type
+ORDER BY event_id, resource_type;
+

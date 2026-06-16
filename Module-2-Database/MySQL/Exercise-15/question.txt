@@ -1,0 +1,6 @@
+Exercise 15: Event Session Time Conflict
+
+Identify overlapping sessions within the same event (i.e., session start and end times that conflict).
+
+Requirements: Use `Sessions`. Return event_id, session1_id, session2_id, session1_start, session1_end, session2_start, session2_end.
+

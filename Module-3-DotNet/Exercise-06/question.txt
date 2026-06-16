@@ -1,0 +1,8 @@
+Exercise 06: Loop Through an Array with Different Loop Types
+
+Objective: Practice iterating over arrays using various loops.
+
+Instructions:
+• Declare an array of integers with at least 5 elements.
+• Use a for, foreach, while, and do-while loop to iterate through the array.
+• Include conditions within the loops to skip or stop based on specific values.

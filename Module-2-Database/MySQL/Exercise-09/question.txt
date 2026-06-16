@@ -1,0 +1,6 @@
+Exercise 09: Organizer Event Summary
+
+For each event organizer, show the number of events created and their current status counts (upcoming, completed, cancelled).
+
+Requirements: Use `Events` and `Users` (organizer_id references `Users.user_id`). Return organizer_id, organizer_name, total_events, upcoming_count, completed_count, cancelled_count.
+
