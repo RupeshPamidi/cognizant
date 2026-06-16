@@ -1,3 +1,0 @@
-Exercise 6: Mouse and Keyboard Events
-
-• Create a <div> and use .click(), .dblclick(), .mouseenter(), .mouseleave(), and .keypress() on an input to show visible changes.
