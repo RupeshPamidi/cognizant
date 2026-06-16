@@ -1,0 +1,4 @@
+Exercise 1: Adding jQuery to a Page
+
+• Task: Include jQuery via CDN and a local copy.
+• Bonus: Add a <p> that says "Hello World!" and log it using jQuery to the console.

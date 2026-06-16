@@ -1,0 +1,8 @@
+Project Theme: Local Community Event Portal
+
+2. Syntax, Data Types, and Operators
+
+Tasks:
+• Use const for event name/date, let for seats
+• Template literals to concatenate
+• Use ++/-- to manage seats

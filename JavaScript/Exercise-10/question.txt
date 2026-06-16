@@ -1,0 +1,8 @@
+Project Theme: Local Community Event Portal
+
+10. Modern JavaScript Features
+
+Tasks:
+• let/const/default params
+• destructuring
+• spread operator clone events before filter

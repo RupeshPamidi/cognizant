@@ -1,0 +1,3 @@
+Exercise 3: Use of Common Methods
+
+• Add 3 <div> elements with class .box. Use .hide(), .show(), .fadeOut(), .fadeIn(), .toggle() applied via buttons. Bonus: chain .slideUp().delay(1000).slideDown()

@@ -1,0 +1,8 @@
+Project Theme: Local Community Event Portal
+
+5. Objects and Prototypes
+
+Tasks:
+• Define Event class
+• add checkAvailability() to prototype
+• list keys/values using Object.entries()

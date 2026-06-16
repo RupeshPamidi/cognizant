@@ -1,0 +1,8 @@
+Project Theme: Local Community Event Portal
+
+3. Conditionals, Loops, and Error Handling
+
+Tasks:
+• Hide past or full events with if-else
+• Loop with forEach
+• Use try-catch around registration

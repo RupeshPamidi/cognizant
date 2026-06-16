@@ -1,0 +1,3 @@
+Exercise 2: Selecting Elements
+
+• Create a page with 1 <h1>, 2 <p>, and 1 <button>. Use $(document).ready() and $() to change the <h1> text and hide one <p> when the button is clicked.
